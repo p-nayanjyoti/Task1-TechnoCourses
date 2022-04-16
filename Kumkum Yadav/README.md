@@ -1,1 +1,5 @@
-
+- Name: Kumkum Yadav
+- Roll No: 210205030
+- Branch: Design
+- Hobbies: Playing Sports
+- Languages I am good at: I am a beginner
