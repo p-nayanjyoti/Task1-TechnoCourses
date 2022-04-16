@@ -1,12 +1,5 @@
-
-Name: Arhita Kundu
-
-Roll No: 210102021
-
-Branch:ECE
-
-Hobbies: Painting, dancing, reading books,
-         debating and listening to music.
-
-Languages I'm good at: English, Bengali and 
-                       Hindi
+- Name: Kumkum Yadav
+- Roll No: 210205030
+- Branch: Design
+- Hobbies: Playing Sports
+- Languages I am good at: I am a beginner
