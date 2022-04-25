@@ -1,6 +1,12 @@
 *{margin: 0;
     padding: 0;
     }
+div{
+    font-family: sans-serif;
+    font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+}
 nav{
     position: absolute;
     left: 0%;
@@ -10,7 +16,7 @@ nav{
     
     background: #FFFAFA;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.06);
-    width: 100vw;
+    width: 1438.09px;
     height: 67.25px;
     ;
     
@@ -44,7 +50,7 @@ right: 20%;
 top: 20.31%;
 bottom: 51.56%;
 
-font-family: 'Raleway';
+font-family: sans-serif;
 font-style: normal;
 font-weight: 600;
 font-size: 17px;
@@ -60,7 +66,7 @@ right: 20%;
 top: 55.09%;
 bottom: 21.88%;
 
-font-family: 'Lato';
+font-family: sans-serif;
 font-style: normal;
 font-weight: 300;
 font-size: 11px;
@@ -73,6 +79,7 @@ display: flex;
 flex-direction: row;
 align-items: flex-start;
 padding: 0px;
+justify-content: space-around;
 
 position: absolute;
 width: 308px;
@@ -80,77 +87,7 @@ left: 364.42px;
 top: 36.25%;
 bottom: 35.5%;
 }
-#link-discover{
-position: static;
-width: 64px;
-height: 19px;
-left: 0px;
-top: 0px;
-text-decoration: none;
-font-family: 'Moderat';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 19px;
 
-color: #141D26;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
-margin: 0px 48px;
-}
-
-#link-courses{
-    position:static;
-width: 61px;
-height: 19px;
-left: 112px;
-top: 0px;
-text-decoration: none;
-font-family: 'Moderat';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 19px;
-
-color: #141D26;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 1;
-flex-grow: 0;
-margin: 0px 48px;
-}
-
-#link-journey{
-    position: static;
-width: 87px;
-height: 19px;
-left: 221px;
-top: 0px;
-text-decoration: none;
-font-family: 'Moderat';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 19px;
-
-color: #141D26;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 2;
-flex-grow: 0;
-margin: 0px 48px;
-}
 
 aside{position: absolute;
 width: 264.09px;
@@ -162,189 +99,138 @@ background: #FFFAFA;
 border: 0.63px solid #E2E3E4;
 box-sizing: border-box;}
 
-.asidenav{
+.asidenav1-a{
+    position: absolute;
+    width: 135px;
+    height: 248px;
+           left: 65px;
+           top: 34px;
     
-position: absolute;
-width: 135px;
-height: 310.08px;
-left: 64px;
-top: 101px;
-
-}
-
-#subnav{
     display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
-
-position: absolute;
-width: 135px;
-height: 248px;
-left: 64px;
-top: 101px;
-
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 5px; 
+    
 }
-#aside-home{
-    position: static;
-width: 38px;
-height: 17px;
-left: 32px;
-top: 3.5px;
-text-decoration: none;
-font-family: 'Moderat';
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 17px;
-/* identical to box height */
-
-
-color: #000000;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 1;
-flex-grow: 0;
-margin: 0px 8px;
+.asidenav1-b{
+    position: absolute;
+    width: 135px;
+    height: 248px;
+           left: 95px;
+           top: 34px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 5px; 
+    
 }
 
-#aside-explore{
-    position: static;
-    width: 50px;
-    height: 17px;
-    left: 32px;
-    top: 3.5px;
-    text-decoration: none;
-    font-family: 'Moderat';
+#ps{
+    position: absolute;
+    width: 112px;
+    height: 14px;
+    left: 74.55px;
+    top: 298.08px;
+    /* font-family: 'Moderat'; */
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
-    line-height: 17px;
-    /* identical to box height */
+    font-size: 12px;
+    line-height: 14px;
+}
+.personal-space{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 0px;
+    position: absolute;
+    width: 85px;
+    height: 192px;
+    left: 89px;
+    top: 324px;
+
+}
+
+.main-head{
+   
+position: absolute;
+width: 1177px;
+height: 560.22px;
+left: 263px;
+top: 0px;
+margin-top: 67.25px;
+background: linear-gradient(282.24deg, #F8E8E8 5.21%, #FFD1FA 105.14%);
+}
+
+#medi{
+    position: absolute;
+    width: 560.06px;
+    height: 283.92px;
+    left: 540.27px;
+    top: 124.89px;
+}
+
+#ellipse{
     
-    
+        position: absolute;
+        width: 67.62px;
+        height: 67.62px;
+        left: 958.0699999999999px;
+        top: 189.87px;
+    }
+
+#headtext{
+    position: absolute;
+    width: 444px;
+    height: 86px;
+    left: 113.19px;
+    top: 129px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
     color: #141D26;
+
+}
+
+#search-box{
+    position: absolute;
+    height: 40px;
+    left: 113.19px;
+    right: 795px;
+    top: 255.85px;
     
-    
-    /* Inside auto layout */
-    
+    background: #FFFFFF;
+    box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+    font-family: sans-serif;
+    color:  #4E5052;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+
+
+}
+
+#magglass{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 7px;
+    top: 6px;
+
+}
+
+#search-text{
+    position: relative;
+    height: 13px;
+    left: 22px;
+    right: 0%;
+    top: calc(50% - 18px/2);
     flex: none;
     order: 1;
     flex-grow: 0;
-    margin: 0px 8px;
+    margin: 0px 16px;
 }
-
-#aside-courses{
-    position: static;
-width: 55px;
-height: 17px;
-left: 32px;
-top: 3.5px;
-text-decoration: none;
-font-family: 'Moderat';
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 17px;
-/* identical to box height */
-
-
-color: #C51F5D;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 1;
-flex-grow: 0;
-margin: 0px 8px;
-
-}
-
-#aside-timelines{
-    position: static;
-width: 61px;
-height: 17px;
-left: 32px;
-top: 3.5px;
-text-decoration: none;
-font-family: 'Moderat';
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 17px;
-/* identical to box height */
-
-
-color: #141D26;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 1;
-flex-grow: 0;
-margin: 0px 8px;
-}
-
-#aside-hackathons{
-    position: static;
-width: 78px;
-height: 17px;
-left: 32px;
-top: 3.5px;
-text-decoration: none;
-font-family: 'Moderat';
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 17px;
-/* identical to box height */
-
-
-color: #141D26;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 1;
-flex-grow: 0;
-margin: 0px 8px;
-}
-#ps{
-    position: absolute;
-width: 105px;
-height: 14px;
-left: 72.55px;
-top: 397.08px;
-
-font-family: 'Moderat';
-font-style: normal;
-font-weight: 700;
-font-size: 12px;
-line-height: 14px;
-
-}
-.personal-space{
-    /* Personal Space */
-
-
-/* Auto layout */
-
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
-
-position: absolute;
-width: 85px;
-height: 192px;
-left: 91px;
-top: 426px;
-
-}
-
