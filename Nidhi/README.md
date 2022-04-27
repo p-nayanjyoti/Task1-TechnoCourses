@@ -1,5 +1,5 @@
-Name:Nidhi Singh  
-Roll No:210106039  
-Branch: BSBE    
-Hobbies:Reading books ,listening song,writing over a particular stuff.  
-Languages:English,Hindi
+- Name: Nidhi Singh
+- Roll no: 210106039
+- Branch : Biosciences and bioengineering
+- Hobbies: Reading book ,listening songs
+- Languages I am good at:Hindi,English
